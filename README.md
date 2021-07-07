@@ -9,7 +9,7 @@ the URL of the project to download and a `Path` location destination:
 
 ```java
 import com.cleo.labs.snvdownloader.SVNDownloader;
-import java.import java.io.IOException;
+import java.io.IOException;
 import java.nio.file.Paths;
 
 import com.cleo.labs.svndownloader.SVNDownloader;
