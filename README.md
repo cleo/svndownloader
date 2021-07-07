@@ -29,6 +29,6 @@ public class Example {
 }
 ```
 
-The SVNDownloader logs its progress at `Level.FINE` in the Java `ijava.util.logging`
+The SVNDownloader logs its progress at `Level.FINE` in the Java `java.util.logging`
 subsystem. The `checkout` method throws an exception in case of any problems. Otherwise
 it returns when the download is complete.
