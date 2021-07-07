@@ -4,7 +4,7 @@ This simple class recursively downloads a folder location from an SVN repository
 to a Path location on disk.
 
 Authentication to the SVN repository uses Basic credentials. Pass the `username`
-and `password` to the constructor. Then call the `svnCheckout` method, passing
+and `password` to the constructor. Then call the `checkout` method, passing
 the URL of the project to download and a `Path` location destination:
 
 ```java
